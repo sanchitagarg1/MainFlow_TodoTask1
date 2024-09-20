@@ -1,0 +1,25 @@
+form {
+    background-color: #f8f9fa; /* Slightly off-white background */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  .form-label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-control:focus {
+    border-color: #28a745; /* Green border on focus */
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+  }
+  
+  .btn-success {
+    background-color: #28a745; /* Consistent green color */
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  

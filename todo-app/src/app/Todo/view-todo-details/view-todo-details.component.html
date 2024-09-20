@@ -1,0 +1,24 @@
+<div class="col-md-6 offset-md-3 mt-5">
+    <h3 class="text-center mb-4">View Todo Details</h3>
+
+    <!-- Todo Details -->
+    <div class="card p-4 shadow-sm">
+        <div class="mb-3">
+            <label class="fw-bold">Title:</label>
+            <span>{{ todo.title }}</span>
+        </div>
+
+        <div class="mb-3">
+            <label class="fw-bold">Description:</label>
+            <span>{{ todo.description }}</span>
+        </div>
+
+        <div class="mb-3">
+            <label class="fw-bold">Completed:</label>
+            <span class="badge" [ngClass]="{'bg-success': todo.completed, 'bg-danger': !todo.completed}">
+                {{ todo.completed ? 'Yes' : 'No' }}
+            </span>
+        </div>
+    </div>
+</div>
+

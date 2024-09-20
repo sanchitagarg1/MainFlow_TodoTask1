@@ -1,0 +1,20 @@
+
+.navbar {
+    margin-bottom: 20px;
+    padding-left: 2%;
+  }
+  
+  footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer a {
+    margin: 0 10px;
+  }
+  
